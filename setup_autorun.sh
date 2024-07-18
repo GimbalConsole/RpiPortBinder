@@ -1,6 +1,7 @@
 #!/bin/bash
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+echo $SCRIPT_DIR
 export PATH=$PATH:"$SCRIPT_DIR"
 
 # Define the source and destination paths
