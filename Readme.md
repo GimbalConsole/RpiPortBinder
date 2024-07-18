@@ -12,3 +12,10 @@
 <Container><Preview><pre><code class="language-html"><backify-button>cd RpiPortBinder</backify-button></code></pre></Preview></Container>
 <Container><Preview><pre><code class="language-html"><backify-button>python portbinder.py</backify-button></code></pre></Preview></Container>
 </Preview></Container>
+
+## set autorun
+
+<Container><Preview>
+<Container><Preview><pre><code class="language-html"><backify-button>bash setup_autorun.sh</backify-button></code></pre></Preview></Container>
+<Container><Preview><pre><code class="language-html"><backify-button>sudo reboot</backify-button></code></pre></Preview></Container>
+</Preview></Container>
