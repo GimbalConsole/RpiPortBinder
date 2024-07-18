@@ -1,9 +1,5 @@
 #!/bin/bash
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-echo $SCRIPT_DIR
-export PATH=$PATH:"$SCRIPT_DIR"
-
 # Define the source and destination paths
 SOURCE_PATH="autorun.sh"
 DEST_PATH="/etc/init.d/autorun.sh"
@@ -29,6 +25,7 @@ else
     echo "File already exists at $DEST_PATH."
 fi
 
+sudo cp portbinder.py /home/$(whoami)/portbinder.py
 # Add to crontab
 add_to_crontab
 
