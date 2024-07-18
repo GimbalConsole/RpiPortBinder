@@ -1,5 +1,8 @@
 #!/bin/bash
 
+SCRIPT_DIR="${BASH_SOURCE[0]}"
+export PATH=$PATH:"$SCRIPT_DIR"
+
 # Define the source and destination paths
 SOURCE_PATH="autorun.sh"
 DEST_PATH="/etc/init.d/autorun.sh"
