@@ -4,7 +4,7 @@ import threading
 # Configuration for the serial ports
 port1 = '/dev/ttyUSB0'
 port2 = '/dev/ttyUSB1'
-baud_rate = 9600
+baud_rate = 115200
 
 # Initialize serial ports
 ser1 = serial.Serial(port1, baud_rate)
